@@ -1,6 +1,6 @@
-import { KEY } from "./secret"
+// import { KEY } from "./secret"
 
-alert('testing');
+const KEY = import.meta.env.VITE_API_KEY
 
 async function getCats() {
 
